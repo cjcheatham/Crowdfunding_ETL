@@ -24,6 +24,8 @@ Where crowdfunding_db_schema.sql is the schema used to create the data base in s
 
 ### Resources
 
+The Resources folder consists or files used to start analysis and the end results for 
+
 ## Instructions
 
 The instructions for this mini project are divided into the following subsections:
