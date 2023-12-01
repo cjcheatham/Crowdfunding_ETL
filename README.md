@@ -16,11 +16,13 @@ The DataBase folder consists of files used to create the Crowdfunding DataBase (
 
 * crowdfunding_db_schema.sql
 
+* crowdfunding_db.sql
+
 * Crowdfunding_ETL_ERD_Diagram.png
 
 * ERD.txt
 
-Where crowdfunding_db_schema.sql is the schema used to create the data base in sql. Crowdfunding_ETL_ERD_Diagram.png is the ERD diagram for this database. And ERD.txt is the code used to create this ERD diagram on the quickdatabasediagrams website. Link will be probvided below. 
+Where crowdfunding_db_schema.sql is the schema used to create the data base in sql. crowdfunding_db.sql has each SELECT * function for each table. Crowdfunding_ETL_ERD_Diagram.png is the ERD diagram for this database. And ERD.txt is the code used to create this ERD diagram on the quickdatabasediagrams website. Link will be probvided below. 
 
 ### Resources
 
@@ -121,6 +123,8 @@ This dataframe can be seen in the main notebook file or in the contacts.csv file
 In SQL, we will create a schema to create another way to visualize the dataframes we have created. This schema will create tables for each dataframe which we can import their corresponding csv files into. This schema can be found as the crowdfunding_db_schema.sql file in the *DataBase* folder. The ERD diagram containing shows a visualization to how the contacts, category, and subcategory dataframes connect to the campaign dataframe through primary and foreign keys.
 
 **Important Note:** When importing the data from the csv files, import them in the order the tables were created in the schema to avoid any errors with the primary and foreign key configurations.
+
+After each table has the data imported, use the crowdfunding_db.sql file to select all the data for each table.
 
 ## Links:
 
